@@ -7,7 +7,7 @@ import transformers
 from PIL import Image
 from torch.utils.data import Dataset
 
-from constants import IGNORE_INDEX
+from utils.constants import IGNORE_INDEX
 from dataset.data_utils import preprocess_multimodal
 
 

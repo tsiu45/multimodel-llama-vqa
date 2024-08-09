@@ -1,6 +1,6 @@
 from transformers import PretrainedConfig, AutoConfig
 
-from constants import LORA_CONFIG
+from utils.constants import LORA_CONFIG
 
 
 class MultimodalLlamaConfig(PretrainedConfig):

@@ -5,8 +5,8 @@ from torch import nn
 from transformers import AutoModel, AutoModelForCausalLM, Cache, PreTrainedModel, BitsAndBytesConfig
 from transformers.models.llava.modeling_llava import LlavaCausalLMOutputWithPast
 
-from configuration_llama import MultimodalLlamaConfig
-from multimodal_projector import MultiModalLlamaProjector
+from model.configuration_llama import MultimodalLlamaConfig
+from model.multimodal_projector import MultiModalLlamaProjector
 
 
 class MultimodalLlamaForConditionalGeneration(PreTrainedModel):

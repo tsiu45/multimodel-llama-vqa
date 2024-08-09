@@ -1,7 +1,7 @@
 from torch import nn
 from transformers.activations import ACT2FN
 
-from configuration_llama import MultimodalLlamaConfig
+from model.configuration_llama import MultimodalLlamaConfig
 
 
 class MultiModalLlamaProjector(nn.Module):
